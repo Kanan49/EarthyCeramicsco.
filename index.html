@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" />
+
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="css/tiny-slider.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<title>Earthy Ceramics co.</title>
+	<!-- Store Js -->
+	<script src="js/store.js" async></script>
+</head>
+
+<body>
+
+	<!-- Start Header/Navigation -->
+	<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Earthy Ceramics<span style="font-size: 16pt;"> co.</span></a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+				aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsFurni">
+				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+					<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+					<li><a class="nav-link" href="shop.html">Shop</a></li>
+					<li><a class="nav-link" href="about.html">About us</a></li>
+					<li><a class="nav-link" href="services.html">Services</a></li>
+					<li><a class="nav-link" href="contact.html">Contact us</a></li>
+				</ul>
+
+				<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+					<li>
+						<div id="mySidepanel" class="sidepanel">
+							<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+							<section class="container content-section">
+								<h2 class="section-header" style="color: #000000;">CART</h2>
+								<div class="cart-row">
+									<span class="cart-item cart-header cart-column">ITEM</span>
+									<span class="cart-price cart-header cart-column">PRICE</span>
+									<span class="cart-quantity cart-header cart-column">QUANTITY</span>
+								</div>
+								<div class="cart-items">
+									<div class="cart-row">
+										<div class="cart-item cart-column">
+											<img class="cart-item-image" src="images/0.jpg" width="100" height="100">
+											<span class="cart-item-title">Nordic Vase</span>
+										</div>
+										<span class="cart-price cart-column">$50</span>
+										<div class="cart-quantity cart-column">
+											<input class="cart-quantity-input" type="number" value="1">
+											<button class="btn btn-danger" type="button">×</button>
+										</div>
+									</div>
+									<div class="cart-row">
+										<div class="cart-item cart-column">
+											<img class="cart-item-image" src="images/1.jpg" width="100" height="100">
+											<span class="cart-item-title">Kruzo Aero Vase</span>
+										</div>
+										<span class="cart-price cart-column">$48</span>
+										<div class="cart-quantity cart-column">
+											<input class="cart-quantity-input" type="number" value="1">
+											<button class="btn btn-danger" type="button">×</button>
+										</div>
+									</div>
+								</div>
+								<div class="cart-total">
+									<strong class="cart-total-title">Total</strong>
+									<span class="cart-total-price">$98</span>
+								</div>
+								<button class="btn btn-black btn-lg py-3 btn-block btn-purchase"
+									onclick="location.href='checkout.html'" type="button">Proceed To Checkout</button>
+							</section>
+
+						</div>
+						<button class="openbtn" onclick="openNav()"><img src="images/cart.svg"></button>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</nav>
+	<!-- End Header/Navigation -->
+
+	<!-- Start Hero Section -->
+	<div class="hero">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-lg-7">
+					<div class="intro-excerpt">
+						<h4>Welcome to</h4>
+						<h1>Earthy Ceramics!</h1>
+						<p class="mb-4">Discover beautifully handcrafted, eco-friendly pottery that embraces both
+							artistry and sustainability. Each piece is a testament to our love for the planet and
+							dedication to ethical craftsmanship. Join us in celebrating the beauty of pottery with a
+							purpose!</p>
+						<p><a href="shop.html" class="btn btn-secondary me-2">Shop Now</a><a href="about.html"
+								class="btn btn-white-outline">Explore</a></p>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="hero-img-wrap">
+						<img src="images/00.jpg" width="80%" class="img-fluid"
+							style="border-radius: 224px 224px 10px 10px;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<!-- End Hero Section -->
+
+	<!-- Start Product Section -->
+	<div class="product-section">
+		<div class="container reveal ">
+			<div class="row">
+
+				<!-- Start Column 1 -->
+				<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+					<h2 class="mb-4 section-title">Shop our featured products!</h2>
+					<p class="mb-4">Explore our handpicked collection of featured products. These are the gems that
+						shine brightest in our Earthy Ceramics Co. collection. Shop our featured products and bring a
+						touch of eco-friendly elegance into your life today.</p>
+					<p><a href="shop.html" class="btn">Explore</a></p>
+				</div>
+				<!-- End Column 1 -->
+
+				<!-- Start Column 1 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5 shop-item">
+					<button class="shop-item-button">
+						<div class="product-item">
+							<img src="images/0.jpg" class="img-fluid product-thumbnail shop-item-image">
+							<h3 class="product-title shop-item-title">Nordic Vase</h3>
+							<strong class="product-price shop-item-price">$50.00</strong>
+							<span class="icon-cross shop-item-details">
+								<img src="images/cross.svg" class="img-fluid">
+							</span>
+						</div>
+					</button>
+				</div>
+				<!-- End Column 1 -->
+
+				<!-- Start Column 2 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5 shop-item">
+					<button class="shop-item-button">
+						<div class="product-item">
+							<img src="images/1.jpg" class="img-fluid product-thumbnail shop-item-image">
+							<h3 class="product-title shop-item-title">Kruzo Aero Vase</h3>
+							<strong class="product-price shop-item-price">$48.00</strong>
+
+							<span class="icon-cross shop-item-details">
+								<img src="images/cross.svg" class="img-fluid">
+							</span>
+						</div>
+					</button>
+				</div>
+				<!-- End Column 2 -->
+
+				<!-- Start Column 3 -->
+				<div class="col-12 col-md-4 col-lg-3 mb-5 shop-item">
+					<button class="shop-item-button">
+						<div class="product-item">
+							<img src="images/2.jpg" class="img-fluid product-thumbnail shop-item-image">
+							<h3 class="product-title shop-item-title">Wave Vase</h3>
+							<strong class="product-price shop-item-price">$43.00</strong>
+
+							<span class="icon-cross shop-item-details">
+								<img src="images/cross.svg" class="img-fluid">
+							</span>
+						</div>
+					</button>
+				</div>
+				<!-- End Column 3 -->
+
+			</div>
+		</div>
+	</div>
+	<!-- End Product Section -->
+
+	<!-- Start Why Choose Us Section -->
+	<div class="why-choose-section">
+		<div class="container reveal ">
+			<div class="row justify-content-between">
+				<div class="col-lg-6">
+					<h2 class="section-title">Why Choose Us</h2>
+					<p>From meticulously crafted mugs to stunning vases, these pieces exemplify the fusion of artistry
+						and sustainability that we cherish.</p>
+
+					<div class="row my-5">
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/truck.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>Fast &amp; Free Shipping</h3>
+								<p>Enjoy swift and complimentary shipping, because we know that anticipation is part of
+									the excitement.</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/bag.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>Easy to Shop</h3>
+								<p>Our user-friendly website makes finding and ordering your favorite pottery a breeze.
+								</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/support.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>24/7 Support</h3>
+								<p>Have questions or need assistance? Our dedicated support team is here around the
+									clock to help.</p>
+							</div>
+						</div>
+
+						<div class="col-6 col-md-6">
+							<div class="feature">
+								<div class="icon">
+									<img src="images/return.svg" alt="Image" class="imf-fluid">
+								</div>
+								<h3>Hassle Free Returns</h3>
+								<p>We stand by our products, but if you ever need to return something, our hassle-free
+									process ensures your satisfaction.</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-lg-5">
+					<div class="img-wrap">
+						<img src="images/4.jpg" alt="Image" class="img-fluid">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Why Choose Us Section -->
+
+	<!-- Start We Help Section -->
+	<div class="we-help-section">
+		<div class="container reveal ">
+			<div class="row justify-content-between">
+				<div class="col-lg-7 mb-5 mb-lg-0">
+					<div class="imgs-grid">
+						<div class="grid grid-1"><img src="images/7.jpg" alt=""></div>
+						<div class="grid grid-2"><img src="images/8.jpg" alt=""></div>
+						<div class="grid grid-3"><img src="images/9.jpg" alt=""></div>
+					</div>
+				</div>
+				<div class="col-lg-5 ps-lg-5">
+					<h2 class="section-title mb-4">We Help You Make Modern Interior Design</h2>
+					<p>Our mission at Earthy Ceramics Co. is to assist you in bringing modern interior design to life.
+						With our handcrafted pottery, we provide the artistic touch that elevates your living spaces.
+						Explore our unique pieces and let us help you create the contemporary, stylish, and inviting
+						atmosphere you've always envisioned for your home.</p>
+
+					<ul class="list-unstyled custom-list my-4">
+						<li>Our handcrafted pottery represents a fusion of artistry and modern design, adding a touch of
+							sophistication to your interiors.</li>
+						<li>Our pieces are designed to seamlessly integrate with a variety of interior styles, allowing
+							you to personalize your space with ease.</li>
+						<li>Each Earthy Ceramics Co. creation is a unique statement piece, making your home truly
+							one-of-a-kind.</li>
+						<li> Our team is here to offer expert guidance and help you select the perfect pottery pieces to
+							complement your modern interior design vision.
+						</li>
+					</ul>
+					<p><a herf="#" class="btn">Explore</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End We Help Section -->
+
+	<!-- Start Popular Product -->
+	<div class="popular-product">
+		<div class="container reveal ">
+			<div class="row">
+
+				<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="product-item-sm d-flex">
+						<div class="thumbnail">
+							<img src="images/12.png" alt="Image" class="img-fluid">
+						</div>
+						<div class="pt-3">
+							<h3>Nordic Vase</h3>
+							<p>Our Nordic Vase blends earthy tones and textured details, offering versatile beauty that
+								complements any decor.</p>
+							<p><a href="#"><strong>Read More</strong></a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="product-item-sm d-flex">
+						<div class="thumbnail">
+							<img src="images/15.png" alt="Image" class="img-fluid">
+						</div>
+						<div class="pt-3">
+							<h3>Kruzo Aero Vase</h3>
+							<p>The Kruzo Aero Vase, in pristine white, boasts an innovative central hole that adds
+								intrigue to your floral arrangements.</p>
+							<p><a href="#"><strong>Read More</strong></a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+					<div class="product-item-sm d-flex">
+						<div class="thumbnail">
+							<img src="images/13.png" alt="Image" class="img-fluid">
+						</div>
+						<div class="pt-3">
+							<h3>Wave Vase</h3>
+							<p>Our Wave Vase, with its captivating wavy shape in pure white, evokes the gentle motion of
+								water. This piece celebrates the beauty of form and function.</p>
+							<p><a href="#"><strong>Read More</strong></a></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- End Popular Product -->
+
+	<!-- Start Testimonial Slider -->
+	<div class="testimonial-section">
+		<div class="container reveal ">
+			<div class="row">
+				<div class="col-lg-7 mx-auto text-center">
+					<h2 class="section-title">Testimonials</h2>
+				</div>
+			</div>
+
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="testimonial-slider-wrap text-center">
+
+						<div id="testimonial-nav">
+							<span class="prev" data-controls="prev"><span class="fa fa-chevron-left"></span></span>
+							<span class="next" data-controls="next"><span class="fa fa-chevron-right"></span></span>
+						</div>
+
+						<div class="testimonial-slider">
+
+							<div class="item">
+								<div class="row justify-content-center">
+									<div class="col-lg-8 mx-auto">
+
+										<div class="testimonial-block text-center">
+											<blockquote class="mb-5">
+												<p>&ldquo;I stumbled upon Earthy Ceramics Co. when I was redecorating my
+													living room, and their Nordic Vase became an instant favorite. It's
+													not just a vase; it's a piece of art. The earthy tones and texture
+													add warmth to my modern décor, making it the perfect centerpiece. I
+													adore how versatile it is, effortlessly accommodating different
+													flower arrangements. It's more than a vase; it's a conversation
+													starter!&rdquo;</p>
+											</blockquote>
+
+											<div class="author-info">
+												<div class="author-pic">
+													<img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
+												</div>
+												<h3 class="font-weight-bold">Emily D.</h3>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<!-- END item -->
+
+							<div class="item">
+								<div class="row justify-content-center">
+									<div class="col-lg-8 mx-auto">
+
+										<div class="testimonial-block text-center">
+											<blockquote class="mb-5">
+												<p>&ldquo;The Kruzo Aero Vase is the epitome of modern elegance. As an
+													architect, I'm always drawn to innovative design, and this vase
+													truly stands out. The central hole adds an unexpected twist to
+													traditional vase aesthetics, and it's become a focal point in my
+													home. It's sleek, minimalistic, and a perfect canvas for my flower
+													arranging experiments. I appreciate having a piece that sparks
+													conversations and inspires creativity.&rdquo;</p>
+											</blockquote>
+
+											<div class="author-info">
+												<div class="author-pic">
+													<img src="images/person_3.jpg" alt="Maria Jones" class="img-fluid">
+												</div>
+												<h3 class="font-weight-bold">Mark S.</h3>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<!-- END item -->
+
+							<div class="item">
+								<div class="row justify-content-center">
+									<div class="col-lg-8 mx-auto">
+
+										<div class="testimonial-block text-center">
+											<blockquote class="mb-5">
+												<p>&ldquo;The Wave Vase from Earthy Ceramics Co. is a true masterpiece.
+													Its wavy shape brings a sense of tranquility to my space, and the
+													white ceramic blends effortlessly with my interior. Whether it's
+													holding fresh blooms or standing alone as a work of art, it never
+													fails to impress. It's like a breath of fresh air in my home, a
+													testament to both form and function. I'm delighted with this
+													purchase!&rdquo;</p>
+											</blockquote>
+
+											<div class="author-info">
+												<div class="author-pic">
+													<img src="images/person_4.jpg" alt="Maria Jones" class="img-fluid">
+												</div>
+												<h3 class="font-weight-bold">Sarah J.</h3>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<!-- END item -->
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Testimonial Slider -->
+
+	<!-- Start Blog Section -
+		<div class="blog-section">
+			<div class="container reveal ">
+				<div class="row mb-5">
+					<div class="col-md-6">
+						<h2 class="section-title">Recent Blog</h2>
+					</div>
+					<div class="col-md-6 text-start text-md-end">
+						<a href="#" class="more">View All Posts</a>
+					</div>
+				</div>
+
+				<div class="row">
+
+					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+						<div class="post-entry">
+							<a href="#" class="post-thumbnail"><img src="images/post-1.jpg" alt="Image" class="img-fluid"></a>
+							<div class="post-content-entry">
+								<h3><a href="#">First Time Home Owner Ideas</a></h3>
+								<div class="meta">
+									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+						<div class="post-entry">
+							<a href="#" class="post-thumbnail"><img src="images/post-2.jpg" alt="Image" class="img-fluid"></a>
+							<div class="post-content-entry">
+								<h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+								<div class="meta">
+									<span>by <a href="#">Robert Fox</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+						<div class="post-entry">
+							<a href="#" class="post-thumbnail"><img src="images/post-3.jpg" alt="Image" class="img-fluid"></a>
+							<div class="post-content-entry">
+								<h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+								<div class="meta">
+									<span>by <a href="#">Kristin Watson</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Blog Section -->
+
+	<!-- Start Footer Section -->
+	<footer class="footer-section">
+		<div class="container reveal  relative">
+
+			<div class="sofa-img">
+				<img src="images/12-1.png" alt="Image" class="img-fluid">
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="subscription-form">
+						<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg"
+									alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
+
+						<form action="#" class="row g-3">
+							<div class="col-auto">
+								<input type="text" class="form-control" placeholder="Enter your name">
+							</div>
+							<div class="col-auto">
+								<input type="email" class="form-control" placeholder="Enter your email">
+							</div>
+							<div class="col-auto">
+								<button class="btn btn-primary">
+									<span class="fa fa-paper-plane"></span>
+								</button>
+							</div>
+						</form>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="row g-5 mb-5">
+				<div class="col-lg-4">
+					<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Earthy Ceramics<span>
+								co.</span></a></div>
+					<p class="mb-4">Welcome to Earthy Ceramics Co.! Discover beautifully handcrafted, eco-friendly
+						pottery that embraces both artistry and sustainability.</p>
+
+				</div>
+
+				<div class="col-lg-8">
+					<div class="row links-wrap">
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="shop.html">Shop</a></li>
+								<li><a href="about.html">About us</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="services.html">Services</a></li>
+								<li><a href="contact.html">Contact us</a></li>
+								<li><a href="cart.html">Cart</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled">
+								<li><a href="about.html">Our team</a></li>
+								<li><a href="privacy-policy.html">Privacy Policy</a></li>
+								<li><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+							</ul>
+						</div>
+
+						<div class="col-6 col-sm-6 col-md-3">
+							<ul class="list-unstyled custom-social">
+								<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+								<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+								<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+								<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="border-top copyright">
+				<div class="row pt-4">
+					<div class="col-lg-6">
+						<p class="mb-2 text-center text-lg-start">Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash;
+							Designed by Kanan Ahalpara
+						</p>
+					</div>
+
+					<div class="col-lg-6 text-center text-lg-end">
+						<ul class="list-unstyled d-inline-flex ms-auto">
+							<li class="me-4"><a href="terms-conditions.html">Terms &amp; Conditions</a></li>
+							<li><a href="privacy-policy.html">Privacy Policy</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	<!-- End Footer Section -->
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
+
+</html>
