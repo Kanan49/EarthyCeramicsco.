@@ -1,5 +1,9 @@
 # EarthyCeramicsco.
 
+
+https://kanan49.github.io/EarthyCeramicsco./
+
+
 Project Introduction:
 Welcome to the exciting world of Earthy Ceramics Co., a pottery company committed to handcrafting ethical and sustainable ceramic masterpieces. Our mission is to provide artistry and sustainability in every piece of pottery, and we are embarking on an innovative front-end development project to create an immersive e-commerce website that truly reflects our values and captivates our customers.
 
