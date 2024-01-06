@@ -35,6 +35,7 @@ a.more {
     padding-bottom: 20px;
     box-sizing: none;
     z-index: 9999;
+    position: fixed;
 }
 .custom-navbar .navbar-brand {
     font-size: 32px;
